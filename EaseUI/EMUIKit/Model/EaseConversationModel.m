@@ -27,10 +27,10 @@
         _conversation = conversation;
         _title = _conversation.conversationId;
         if (conversation.type == EMConversationTypeChat) {
-            _avatarImage = [UIImage imageNamed:@"EaseUIResource.bundle/user"];
+            _avatarImage = [SBEaseHelper imageWithName:@"EaseUIResource.bundle/user"];
         }
         else{
-            _avatarImage = [UIImage imageNamed:@"EaseUIResource.bundle/group"];
+            _avatarImage = [SBEaseHelper imageWithName:@"EaseUIResource.bundle/group"];
         }
     }
     

@@ -12,6 +12,8 @@
 
 #import <Foundation/Foundation.h>
 
+#import "SBEaseHelper.h"
+
 #import <SDWebImage/UIImageView+WebCache.h>
 //#import "UIImageView+WebCache.h"
 
