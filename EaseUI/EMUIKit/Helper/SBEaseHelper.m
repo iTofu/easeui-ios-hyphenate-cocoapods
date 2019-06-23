@@ -10,7 +10,7 @@
 @implementation SBEaseHelper
 
 + (UIImage *)imageWithName:(NSString *)imageName {
-  NSString *bundlePath = [[NSBundle bundleForClass:[EaseMessageViewController class]] pathForResource:@"EaseUIResource" ofType:@"bundle"];
+  NSString *bundlePath = [[NSBundle bundleForClass:[SBEaseHelper class]] pathForResource:@"EaseUIResource" ofType:@"bundle"];
   NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
   UIImage *image = [UIImage imageNamed:imageName inBundle:bundle compatibleWithTraitCollection:nil];
   return image;
