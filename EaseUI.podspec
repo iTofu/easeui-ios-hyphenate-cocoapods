@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.frameworks = 'Foundation', 'UIKit'
   spec.libraries    = 'stdc++'
-  spec.resource_bundle     = 'EaseUI/resources/EaseUIResource.bundle'
+  spec.resource_bundles     = {'EaseUIResource' => 'EaseUI/resources/EaseUIResource.bundle'}
   spec.xcconfig     = {'OTHER_LDFLAGS' => '-ObjC'}
   spec.dependency 'MWPhotoBrowser', '~> 2.1.1'    
   spec.dependency 'MJRefresh', '~> 3.1.0'
