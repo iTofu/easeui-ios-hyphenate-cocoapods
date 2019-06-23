@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   spec.version      = '3.5.3'
   spec.license       = { :type => 'Copyright', :text => 'EaseMob Inc. 2017' }
   spec.summary      = 'EaseMob UI Kit'
-  spec.homepage     = 'https://github.com/easemob/easeui-ios-hyphenate-cocoapods'
+  spec.homepage     = 'https://github.com/iTofu/easeui-ios-hyphenate-cocoapods'
   spec.author       = {'EaseMob Inc.' => 'admin@easemob.com'}
   spec.source       =  {:git => 'https://github.com/iTofu/easeui-ios-hyphenate-cocoapods.git', :tag => spec.version.to_s }
   spec.source_files = 'EaseUI/**/*.{h,m,mm}'
