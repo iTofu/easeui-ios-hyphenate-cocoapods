@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.summary      = 'EaseMob UI Kit'
   spec.homepage     = 'https://github.com/easemob/easeui-ios-hyphenate-cocoapods'
   spec.author       = {'EaseMob Inc.' => 'admin@easemob.com'}
-  spec.source       =  {:git => 'https://github.com/easemob/easeui-ios-hyphenate-cocoapods.git', :tag => spec.version.to_s }
+  spec.source       =  {:git => 'https://github.com/iTofu/easeui-ios-hyphenate-cocoapods.git', :tag => spec.version.to_s }
   spec.source_files = 'EaseUI/**/*.{h,m,mm}'
   spec.public_header_files = '**/*.{h}'
   spec.private_header_files = ['EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/amrwapper/wav.h','EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/amrwapper/amrFileCodec.h','EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrnb/*.h','EaseUI/EMUIKit/3rdparty/DeviceHelper/VoiceConvert/opencore-amrwb/*.h']
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.frameworks = 'Foundation', 'UIKit'
   spec.libraries    = 'stdc++'
-  spec.resource     = 'EaseUI/resources/EaseUIResource.bundle'
+  spec.resource_bundle     = 'EaseUI/resources/EaseUIResource.bundle'
   spec.xcconfig     = {'OTHER_LDFLAGS' => '-ObjC'}
   spec.dependency 'MWPhotoBrowser', '~> 2.1.1'    
   spec.dependency 'MJRefresh', '~> 3.1.0'
