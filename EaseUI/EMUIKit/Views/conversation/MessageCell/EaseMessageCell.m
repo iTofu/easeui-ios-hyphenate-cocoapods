@@ -23,6 +23,8 @@
 #import "EaseEmotionEscape.h"
 #import "EaseLocalDefine.h"
 
+#import "SBEaseHelper.h"
+
 CGFloat const EaseMessageCellPadding = 10;
 
 NSString *const EaseMessageCellIdentifierRecvText = @"EaseMessageCellRecvText";

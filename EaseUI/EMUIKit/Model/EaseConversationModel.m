@@ -12,6 +12,8 @@
 
 #import "EaseConversationModel.h"
 
+#import "SBEaseHelper.h"
+
 #if ENABLE_LITE == 1
 #import <HyphenateLite/EMConversation.h>
 #else

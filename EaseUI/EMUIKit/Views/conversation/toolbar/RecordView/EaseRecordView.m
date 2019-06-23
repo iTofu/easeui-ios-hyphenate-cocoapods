@@ -14,6 +14,8 @@
 #import "EMCDDeviceManager.h"
 #import "EaseLocalDefine.h"
 
+#import "SBEaseHelper.h"
+
 @interface EaseRecordView ()
 {
     NSTimer *_timer;

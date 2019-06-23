@@ -12,6 +12,8 @@
 
 #import "EaseUserModel.h"
 
+#import "SBEaseHelper.h"
+
 @implementation EaseUserModel
 
 - (instancetype)initWithBuddy:(NSString *)buddy

@@ -16,6 +16,8 @@
 #import "EaseFaceView.h"
 #import "EaseEmotionManager.h"
 
+#import "SBEaseHelper.h"
+
 @interface UIButton (UIButtonImageWithLable)
 - (void) setImage:(UIImage *)image withTitle:(NSString *)title forState:(UIControlState)stateType;
 @end

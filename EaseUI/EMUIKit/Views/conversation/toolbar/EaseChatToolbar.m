@@ -18,6 +18,8 @@
 #import "EaseEmotionManager.h"
 #import "EaseLocalDefine.h"
 
+#import "SBEaseHelper.h"
+
 @interface EaseChatToolbar()<UITextViewDelegate, EMFaceDelegate>
 
 @property (nonatomic) CGFloat version;

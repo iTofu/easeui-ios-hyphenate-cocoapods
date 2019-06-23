@@ -28,6 +28,8 @@
 #import "EaseLocalDefine.h"
 #import "EaseSDKHelper.h"
 
+#import "SBEaseHelper.h"
+
 #define KHintAdjustY    50
 
 #define IOS_VERSION [[UIDevice currentDevice] systemVersion]>=9.0

@@ -17,6 +17,8 @@
 #import "UIViewController+HUD.h"
 #import "EaseLocalDefine.h"
 
+#import "SBEaseHelper.h"
+
 static EaseLocationViewController *defaultLocation = nil;
 
 @interface EaseLocationViewController () <MKMapViewDelegate,CLLocationManagerDelegate>
